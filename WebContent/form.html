@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>User Form</title>
+</head>
+<body>
+	<form action="1.jsp" method="POST">
+		Name: &#8194; <input name="name"/>
+		<br><br>
+		Age: &#8195;&#160; <input name="age" type="number" min="1"/>
+		<br><br>
+		Gender: <input type="radio" name="gender" value="male" checked /> Male
+				<input type="radio" name="gender" value="female" /> Female
+		<br><br>
+		Country: <select name="country">
+					<option>Ukraine</option>
+					<option>Russia</option>
+					<option>USA</option>
+					<option>China</option>
+					<option>Korea</option>
+					<option>Japan</option>
+					<option>Sweden</option>
+					<option>Poland</option>
+				</select>
+		<br><br>
+		Courses: <br>
+		<input type="checkbox" name="courses" value="Java" checked /> Java
+		<input type="checkbox" name="courses" value="C++" checked /> C++
+		<input type="checkbox" name="courses" value="JavaScript" checked /> JavaScript<br>
+		<input type="checkbox" name="courses" value="Ruby" checked /> Ruby
+		<input type="checkbox" name="courses" value="PHP" checked /> PHP
+		<input type="checkbox" name="courses" value="Clips" /> Clips<br>
+		<input type="submit" value="GO!"/>
+	</form>
+</body>
+</html>
